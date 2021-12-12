@@ -1,0 +1,8 @@
+extends Main 
+    
+block content
+    form(action="/runKnocker",method="get")
+        input(type="text",name="domain")
+        input(type="submit")
+    a(href="/results")
+        button Previous results
