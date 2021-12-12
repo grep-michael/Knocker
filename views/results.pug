@@ -1,0 +1,19 @@
+extends Main
+
+
+block content 
+    table(border="1")
+        tr
+            th Domain
+            th Alias
+            th IPs
+            th Code
+            th Server
+        each val in domains
+            tr
+                td= val.domain
+                td= val.alias
+                td= val.ipaddr
+                td= val.code
+                td= val.server
+            

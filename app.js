@@ -1,13 +1,14 @@
 const { Console } = require("console")
 const express = require("express")
 const path = require("path")
-
+const fs = require("fs")
 const app = express()
 
 app.set("views",path.join(__dirname,"views"))
 app.set('view engine','pug')
 
 var exec = require('child_process').exec;
+const { connect } = require("http2")
 function execute(command){
     return new Promise(function(resolve,reject){
         exec(command,function(error,stdOut,stdErr){
@@ -34,8 +35,13 @@ app.get('/runKnocker',function(req,res){
 })
 
 app.get('/results',function(req,res){
-    res.send("results")
-
+    let rawdata = fs.readFileSync(path.join(__dirname,"reports/report.json"))
+    let js = JSON.parse(rawdata)
+    //reparse json into array because arrays are super cool and epic
+    domains = Object.values(js)
+    res.render('results',{
+        domains:domains
+    })
 })
 
-var server = app.listen(3000)
+var server = app.listen(3001)
