@@ -1,0 +1,19 @@
+extends Main
+
+block content 
+    div(class="table-responsive-sm")
+        table(class="table table-bordered table-sm")
+            tr(class="row")
+                th(class="col") Domain
+                th(class="col") Alias
+                th(class="col") IPs
+                th(class="col") Code
+                th(class="col") Server
+            each val in domains
+                tr(class="row")
+                    td(class="col")= val.domain
+                    td(class="col")= val.alias
+                    td(class="col")= val.ipaddr
+                    td(class="col")= val.code
+                    td(class="col")= val.server
+                

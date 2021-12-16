@@ -21,17 +21,6 @@
         "code": 200,
         "server": "nginx"
     },
-    "admissions.bsu.edu": {
-        "domain": "cluster.technolutions.net",
-        "alias": [
-            "admissions.bsu.edu"
-        ],
-        "ipaddr": [
-            "34.198.122.35"
-        ],
-        "code": 200,
-        "server": "Microsoft-IIS/10.0"
-    },
     "alert.bsu.edu": {
         "domain": "waws-prod-sn1-029.cloudapp.net",
         "alias": [
@@ -41,6 +30,17 @@
         ],
         "ipaddr": [
             "104.214.29.203"
+        ],
+        "code": 200,
+        "server": "Microsoft-IIS/10.0"
+    },
+    "admissions.bsu.edu": {
+        "domain": "cluster.technolutions.net",
+        "alias": [
+            "admissions.bsu.edu"
+        ],
+        "ipaddr": [
+            "34.198.122.35"
         ],
         "code": 200,
         "server": "Microsoft-IIS/10.0"
@@ -60,8 +60,8 @@
             "banner.bsu.edu"
         ],
         "ipaddr": [
-            "3.209.63.56",
-            "3.82.185.91"
+            "3.82.185.91",
+            "3.209.63.56"
         ],
         "code": 200,
         "server": ""
@@ -77,6 +77,22 @@
         "code": 200,
         "server": "nginx"
     },
+    "autodiscover.bsu.edu": {
+        "domain": "autod.ms-acdc-autod.office.com",
+        "alias": [
+            "autodiscover.bsu.edu",
+            "autodiscover.outlook.com",
+            "autod.ha-autod.office.com"
+        ],
+        "ipaddr": [
+            "52.96.79.200",
+            "52.96.226.152",
+            "52.96.190.232",
+            "52.96.164.184"
+        ],
+        "code": 200,
+        "server": "Microsoft-HTTPAPI/2.0"
+    },
     "burrislab.bsu.edu": {
         "domain": "burrisowls.wpengine.com",
         "alias": [
@@ -88,22 +104,6 @@
         "code": 200,
         "server": "nginx"
     },
-    "autodiscover.bsu.edu": {
-        "domain": "autod.ms-acdc-autod.office.com",
-        "alias": [
-            "autodiscover.bsu.edu",
-            "autodiscover.outlook.com",
-            "autod.ha-autod.office.com"
-        ],
-        "ipaddr": [
-            "52.96.79.88",
-            "52.96.163.40",
-            "52.96.79.184",
-            "52.96.223.8"
-        ],
-        "code": 200,
-        "server": "Microsoft-HTTPAPI/2.0"
-    },
     "catalog.bsu.edu": {
         "domain": "",
         "alias": [],
@@ -112,158 +112,6 @@
         ],
         "code": 200,
         "server": "Microsoft-IIS/10.0"
-    },
-    "cs.bsu.edu": {
-        "domain": "bsu-cs.bsu.edu",
-        "alias": [
-            "cs.bsu.edu"
-        ],
-        "ipaddr": [
-            "10.192.28.74"
-        ],
-        "code": "",
-        "server": ""
-    },
-    "connect.bsu.edu": {
-        "domain": "34316a.bbnc.bbcust.com",
-        "alias": [
-            "connect.bsu.edu"
-        ],
-        "ipaddr": [
-            "205.139.107.55"
-        ],
-        "code": 200,
-        "server": ""
-    },
-    "control.bsu.edu": {
-        "domain": "",
-        "alias": [],
-        "ipaddr": [
-            "10.193.32.72"
-        ],
-        "code": 200,
-        "server": "Apache"
-    },
-    "cms.bsu.edu": {
-        "domain": "waws-prod-blu-081.cloudapp.net",
-        "alias": [
-            "cms.bsu.edu",
-            "bsucmsredirect.azurewebsites.net",
-            "waws-prod-blu-081.vip.azurewebsites.windows.net"
-        ],
-        "ipaddr": [
-            "13.82.93.245"
-        ],
-        "code": 200,
-        "server": "Microsoft-IIS/10.0"
-    },
-    "degreeworks.bsu.edu": {
-        "domain": "bsu-pro-elb-enzhfc2aexg6-2012043195.us-east-1.elb.amazonaws.com",
-        "alias": [
-            "degreeworks.bsu.edu"
-        ],
-        "ipaddr": [
-            "54.224.33.16",
-            "52.45.194.147"
-        ],
-        "code": 200,
-        "server": "Microsoft-HTTPAPI/2.0"
-    },
-    "eprint.bsu.edu": {
-        "domain": "bsu-prod-eprint-elb-202673825.us-east-1.elb.amazonaws.com",
-        "alias": [
-            "eprint.bsu.edu"
-        ],
-        "ipaddr": [
-            "23.21.60.126",
-            "23.20.22.63"
-        ],
-        "code": 200,
-        "server": "Apache"
-    },
-    "espace.bsu.edu": {
-        "domain": "",
-        "alias": [],
-        "ipaddr": [
-            "67.205.46.57"
-        ],
-        "code": "",
-        "server": ""
-    },
-    "google.bsu.edu": {
-        "domain": "",
-        "alias": [],
-        "ipaddr": [
-            "10.193.131.210"
-        ],
-        "code": 200,
-        "server": "Microsoft-IIS/10.0"
-    },
-    "give.bsu.edu": {
-        "domain": "",
-        "alias": [],
-        "ipaddr": [
-            "54.218.42.63",
-            "52.25.253.172"
-        ],
-        "code": "",
-        "server": ""
-    },
-    "forms.bsu.edu": {
-        "domain": "ballstate.formstack.com",
-        "alias": [
-            "forms.bsu.edu"
-        ],
-        "ipaddr": [
-            "99.84.173.21",
-            "99.84.173.18",
-            "99.84.173.106",
-            "99.84.173.57"
-        ],
-        "code": 200,
-        "server": "nginx"
-    },
-    "housing.bsu.edu": {
-        "domain": "prodstarrezn.servers.bsu.edu",
-        "alias": [
-            "housing.bsu.edu"
-        ],
-        "ipaddr": [
-            "10.193.131.89"
-        ],
-        "code": 200,
-        "server": "Microsoft-IIS/10.0"
-    },
-    "ilearn.bsu.edu": {
-        "domain": "",
-        "alias": [],
-        "ipaddr": [
-            "10.193.5.198"
-        ],
-        "code": 200,
-        "server": "Apache"
-    },
-    "dining.bsu.edu": {
-        "domain": "dining01.servers.bsu.edu",
-        "alias": [
-            "dining.bsu.edu"
-        ],
-        "ipaddr": [
-            "10.193.131.121"
-        ],
-        "code": 200,
-        "server": "Microsoft-IIS/8.5"
-    },
-    "jabber.bsu.edu": {
-        "domain": "cup-pub-1.net.bsu.edu",
-        "alias": [
-            "jabber.bsu.edu"
-        ],
-        "ipaddr": [
-            "147.226.14.145"
-        ],
-        "code": 200,
-        "server": ""
     },
     "adam.bsu.edu": {
         "domain": "",
@@ -301,6 +149,19 @@
         "code": "",
         "server": ""
     },
+    "cms.bsu.edu": {
+        "domain": "waws-prod-blu-081.cloudapp.net",
+        "alias": [
+            "cms.bsu.edu",
+            "bsucmsredirect.azurewebsites.net",
+            "waws-prod-blu-081.vip.azurewebsites.windows.net"
+        ],
+        "ipaddr": [
+            "13.82.93.245"
+        ],
+        "code": 200,
+        "server": "Microsoft-IIS/10.0"
+    },
     "aruba-master.bsu.edu": {
         "domain": "",
         "alias": [],
@@ -309,15 +170,6 @@
         ],
         "code": "",
         "server": ""
-    },
-    "journals.bsu.edu": {
-        "domain": "",
-        "alias": [],
-        "ipaddr": [
-            "208.70.245.121"
-        ],
-        "code": 200,
-        "server": "Apache"
     },
     "atlas.bsu.edu": {
         "domain": "",
@@ -328,16 +180,25 @@
         "code": "",
         "server": ""
     },
-    "lib.bsu.edu": {
-        "domain": "libweb02.servers.bsu.edu",
+    "cs.bsu.edu": {
+        "domain": "bsu-cs.bsu.edu",
         "alias": [
-            "lib.bsu.edu"
+            "cs.bsu.edu"
         ],
         "ipaddr": [
-            "10.193.131.247"
+            "10.192.28.74"
+        ],
+        "code": "",
+        "server": ""
+    },
+    "control.bsu.edu": {
+        "domain": "",
+        "alias": [],
+        "ipaddr": [
+            "10.193.32.72"
         ],
         "code": 200,
-        "server": "Microsoft-IIS/10.0"
+        "server": "Apache"
     },
     "backup02.bsu.edu": {
         "domain": "",
@@ -346,6 +207,17 @@
             "10.192.28.46"
         ],
         "code": "",
+        "server": ""
+    },
+    "connect.bsu.edu": {
+        "domain": "34316a.bbnc.bbcust.com",
+        "alias": [
+            "connect.bsu.edu"
+        ],
+        "ipaddr": [
+            "205.139.107.55"
+        ],
+        "code": 200,
         "server": ""
     },
     "bap.bsu.edu": {
@@ -366,16 +238,191 @@
         "code": "",
         "server": ""
     },
-    "magazine.bsu.edu": {
-        "domain": "bsumagazine.wpengine.com",
+    "degreeworks.bsu.edu": {
+        "domain": "bsu-pro-elb-enzhfc2aexg6-2012043195.us-east-1.elb.amazonaws.com",
         "alias": [
-            "magazine.bsu.edu"
+            "degreeworks.bsu.edu"
         ],
         "ipaddr": [
-            "104.197.30.81"
+            "54.224.33.16",
+            "52.45.194.147"
+        ],
+        "code": 200,
+        "server": "Microsoft-HTTPAPI/2.0"
+    },
+    "ca.bsu.edu": {
+        "domain": "",
+        "alias": [],
+        "ipaddr": [
+            "10.192.60.21"
+        ],
+        "code": "",
+        "server": ""
+    },
+    "digitalresearch.bsu.edu": {
+        "domain": "",
+        "alias": [],
+        "ipaddr": [
+            "167.99.39.236"
+        ],
+        "code": 200,
+        "server": "Apache"
+    },
+    "eprint.bsu.edu": {
+        "domain": "bsu-prod-eprint-elb-202673825.us-east-1.elb.amazonaws.com",
+        "alias": [
+            "eprint.bsu.edu"
+        ],
+        "ipaddr": [
+            "23.20.22.63",
+            "23.21.60.126"
+        ],
+        "code": 200,
+        "server": "Apache"
+    },
+    "chef.bsu.edu": {
+        "domain": "chef.servers.bsu.edu",
+        "alias": [
+            "chef.bsu.edu"
+        ],
+        "ipaddr": [
+            "10.195.1.97"
+        ],
+        "code": "",
+        "server": ""
+    },
+    "espace.bsu.edu": {
+        "domain": "",
+        "alias": [],
+        "ipaddr": [
+            "67.205.46.57"
+        ],
+        "code": "",
+        "server": ""
+    },
+    "cip.bsu.edu": {
+        "domain": "",
+        "alias": [],
+        "ipaddr": [
+            "10.192.28.56"
+        ],
+        "code": "",
+        "server": ""
+    },
+    "dining.bsu.edu": {
+        "domain": "dining01.servers.bsu.edu",
+        "alias": [
+            "dining.bsu.edu"
+        ],
+        "ipaddr": [
+            "10.193.131.121"
+        ],
+        "code": 200,
+        "server": "Microsoft-IIS/8.5"
+    },
+    "forms.bsu.edu": {
+        "domain": "ballstate.formstack.com",
+        "alias": [
+            "forms.bsu.edu"
+        ],
+        "ipaddr": [
+            "99.84.173.106",
+            "99.84.173.57",
+            "99.84.173.21",
+            "99.84.173.18"
         ],
         "code": 200,
         "server": "nginx"
+    },
+    "cisco-capwap-controller.bsu.edu": {
+        "domain": "",
+        "alias": [],
+        "ipaddr": [
+            "10.2.0.21",
+            "10.2.0.12",
+            "10.2.0.11"
+        ],
+        "code": "",
+        "server": ""
+    },
+    "give.bsu.edu": {
+        "domain": "",
+        "alias": [],
+        "ipaddr": [
+            "54.218.42.63",
+            "52.25.253.172"
+        ],
+        "code": 404,
+        "server": "awselb/2.0"
+    },
+    "google.bsu.edu": {
+        "domain": "",
+        "alias": [],
+        "ipaddr": [
+            "10.193.131.210"
+        ],
+        "code": 200,
+        "server": "Microsoft-IIS/10.0"
+    },
+    "housing.bsu.edu": {
+        "domain": "prodstarrezn.servers.bsu.edu",
+        "alias": [
+            "housing.bsu.edu"
+        ],
+        "ipaddr": [
+            "10.193.131.89"
+        ],
+        "code": 200,
+        "server": "Microsoft-IIS/10.0"
+    },
+    "ilearn.bsu.edu": {
+        "domain": "",
+        "alias": [],
+        "ipaddr": [
+            "10.193.5.198"
+        ],
+        "code": 200,
+        "server": "Apache"
+    },
+    "jabber.bsu.edu": {
+        "domain": "cup-pub-1.net.bsu.edu",
+        "alias": [
+            "jabber.bsu.edu"
+        ],
+        "ipaddr": [
+            "147.226.14.145"
+        ],
+        "code": 200,
+        "server": ""
+    },
+    "email.bsu.edu": {
+        "domain": "",
+        "alias": [],
+        "ipaddr": [
+            "10.192.238.62"
+        ],
+        "code": "",
+        "server": ""
+    },
+    "lib.bsu.edu": {
+        "domain": "libweb02.servers.bsu.edu",
+        "alias": [
+            "lib.bsu.edu"
+        ],
+        "ipaddr": [
+            "10.193.131.247"
+        ],
+        "code": 200,
+        "server": "Microsoft-IIS/10.0"
+    },
+    "journals.bsu.edu": {
+        "domain": "",
+        "alias": [],
+        "ipaddr": [
+            "208.70.245.121"
+        ],
+        "code": 200,
+        "server": "Apache"
     },
     "lyncdiscover.bsu.edu": {
         "domain": "webdir.online.lync.com",
@@ -399,14 +446,16 @@
         "code": 200,
         "server": ""
     },
-    "ca.bsu.edu": {
-        "domain": "",
-        "alias": [],
-        "ipaddr": [
-            "10.192.60.21"
+    "magazine.bsu.edu": {
+        "domain": "bsumagazine.wpengine.com",
+        "alias": [
+            "magazine.bsu.edu"
         ],
-        "code": "",
-        "server": ""
+        "ipaddr": [
+            "104.197.30.81"
+        ],
+        "code": 200,
+        "server": "nginx"
     },
     "math.bsu.edu": {
         "domain": "bsu-cs.bsu.edu",
@@ -418,76 +467,6 @@
         ],
         "code": "",
         "server": ""
-    },
-    "chef.bsu.edu": {
-        "domain": "chef.servers.bsu.edu",
-        "alias": [
-            "chef.bsu.edu"
-        ],
-        "ipaddr": [
-            "10.195.1.97"
-        ],
-        "code": "",
-        "server": ""
-    },
-    "cip.bsu.edu": {
-        "domain": "",
-        "alias": [],
-        "ipaddr": [
-            "10.192.28.56"
-        ],
-        "code": "",
-        "server": ""
-    },
-    "msoid.bsu.edu": {
-        "domain": "www.tm.a.prd.aadg.akadns.net",
-        "alias": [
-            "msoid.bsu.edu",
-            "clientconfig.microsoftonline-p.net",
-            "a.privatelink.msidentity.com",
-            "prda.aadg.msidentity.com"
-        ],
-        "ipaddr": [
-            "20.190.155.67",
-            "20.190.155.16",
-            "20.190.155.131",
-            "20.190.155.3",
-            "20.190.155.2",
-            "20.190.155.66",
-            "20.190.155.1",
-            "20.190.155.132"
-        ],
-        "code": 404,
-        "server": ""
-    },
-    "my.bsu.edu": {
-        "domain": "",
-        "alias": [],
-        "ipaddr": [
-            "10.193.131.206"
-        ],
-        "code": 200,
-        "server": "Microsoft-HTTPAPI/2.0"
-    },
-    "email.bsu.edu": {
-        "domain": "",
-        "alias": [],
-        "ipaddr": [
-            "10.192.238.62"
-        ],
-        "code": "",
-        "server": ""
-    },
-    "password.bsu.edu": {
-        "domain": "password.servers.bsu.edu",
-        "alias": [
-            "password.bsu.edu"
-        ],
-        "ipaddr": [
-            "10.193.131.75"
-        ],
-        "code": 200,
-        "server": "Microsoft-IIS/8.5"
     },
     "ess.bsu.edu": {
         "domain": "",
@@ -509,6 +488,47 @@
         "code": "",
         "server": ""
     },
+    "msoid.bsu.edu": {
+        "domain": "www.tm.a.prd.aadg.akadns.net",
+        "alias": [
+            "msoid.bsu.edu",
+            "clientconfig.microsoftonline-p.net",
+            "a.privatelink.msidentity.com",
+            "prda.aadg.msidentity.com"
+        ],
+        "ipaddr": [
+            "20.190.155.132",
+            "20.190.155.1",
+            "20.190.155.131",
+            "20.190.155.16",
+            "20.190.155.3",
+            "20.190.155.66",
+            "20.190.155.2",
+            "20.190.155.65"
+        ],
+        "code": 404,
+        "server": ""
+    },
+    "my.bsu.edu": {
+        "domain": "",
+        "alias": [],
+        "ipaddr": [
+            "10.193.131.206"
+        ],
+        "code": 200,
+        "server": "Microsoft-HTTPAPI/2.0"
+    },
+    "password.bsu.edu": {
+        "domain": "password.servers.bsu.edu",
+        "alias": [
+            "password.bsu.edu"
+        ],
+        "ipaddr": [
+            "10.193.131.75"
+        ],
+        "code": 200,
+        "server": "Microsoft-IIS/8.5"
+    },
     "people.bsu.edu": {
         "domain": "bsupeople.wpengine.com",
         "alias": [
@@ -529,6 +549,15 @@
         "code": 403,
         "server": "Microsoft-IIS/8.5"
     },
+    "printing.bsu.edu": {
+        "domain": "",
+        "alias": [],
+        "ipaddr": [
+            "52.5.5.85"
+        ],
+        "code": 200,
+        "server": "Apache"
+    },
     "proxy.bsu.edu": {
         "domain": "libezproxy02.servers.bsu.edu",
         "alias": [
@@ -539,26 +568,6 @@
         ],
         "code": 200,
         "server": "EZproxy"
-    },
-    "printing.bsu.edu": {
-        "domain": "",
-        "alias": [],
-        "ipaddr": [
-            "52.5.5.85"
-        ],
-        "code": 200,
-        "server": "Apache"
-    },
-    "cisco-capwap-controller.bsu.edu": {
-        "domain": "",
-        "alias": [],
-        "ipaddr": [
-            "10.2.0.12",
-            "10.2.0.21",
-            "10.2.0.11"
-        ],
-        "code": "",
-        "server": ""
     },
     "icare.bsu.edu": {
         "domain": "tcxg502.bsu.edu",
@@ -609,6 +618,87 @@
         "code": "",
         "server": ""
     },
+    "maintenance.bsu.edu": {
+        "domain": "",
+        "alias": [],
+        "ipaddr": [
+            "10.192.224.56"
+        ],
+        "code": "",
+        "server": ""
+    },
+    "mom.bsu.edu": {
+        "domain": "",
+        "alias": [],
+        "ipaddr": [
+            "10.192.32.21"
+        ],
+        "code": "",
+        "server": ""
+    },
+    "mse.bsu.edu": {
+        "domain": "",
+        "alias": [],
+        "ipaddr": [
+            "10.192.58.56"
+        ],
+        "code": "",
+        "server": ""
+    },
+    "netscaler.bsu.edu": {
+        "domain": "",
+        "alias": [],
+        "ipaddr": [
+            "10.192.24.75"
+        ],
+        "code": "",
+        "server": ""
+    },
+    "nessus.bsu.edu": {
+        "domain": "",
+        "alias": [],
+        "ipaddr": [
+            "10.193.13.71"
+        ],
+        "code": "",
+        "server": ""
+    },
+    "ns3.bsu.edu": {
+        "domain": "",
+        "alias": [],
+        "ipaddr": [
+            "147.226.3.130"
+        ],
+        "code": "",
+        "server": ""
+    },
+    "ns1.bsu.edu": {
+        "domain": "",
+        "alias": [],
+        "ipaddr": [
+            "147.226.3.30"
+        ],
+        "code": "",
+        "server": ""
+    },
+    "ns6.bsu.edu": {
+        "domain": "",
+        "alias": [],
+        "ipaddr": [
+            "52.200.80.45"
+        ],
+        "code": "",
+        "server": ""
+    },
+    "pandora.bsu.edu": {
+        "domain": "",
+        "alias": [],
+        "ipaddr": [
+            "10.4.78.80"
+        ],
+        "code": "",
+        "server": ""
+    },
     "sites.bsu.edu": {
         "domain": "bsusites.wpengine.com",
         "alias": [
@@ -642,36 +732,6 @@
         "code": 200,
         "server": ""
     },
-    "sponsor.bsu.edu": {
-        "domain": "",
-        "alias": [],
-        "ipaddr": [
-            "10.64.6.31"
-        ],
-        "code": "",
-        "server": ""
-    },
-    "ns1.bsu.edu": {
-        "domain": "",
-        "alias": [],
-        "ipaddr": [
-            "147.226.3.30"
-        ],
-        "code": "",
-        "server": ""
-    },
-    "studyabroad.bsu.edu": {
-        "domain": "sni-web0102-hosted.terradotta.com",
-        "alias": [
-            "studyabroad.bsu.edu",
-            "ballstate-sa.terradotta.com"
-        ],
-        "ipaddr": [
-            "209.164.62.224"
-        ],
-        "code": 200,
-        "server": ""
-    },
     "ssb.bsu.edu": {
         "domain": "waws-prod-bay-033.cloudapp.net",
         "alias": [
@@ -685,6 +745,27 @@
         "code": 200,
         "server": "Microsoft-IIS/10.0"
     },
+    "studyabroad.bsu.edu": {
+        "domain": "sni-web0102-hosted.terradotta.com",
+        "alias": [
+            "studyabroad.bsu.edu",
+            "ballstate-sa.terradotta.com"
+        ],
+        "ipaddr": [
+            "209.164.62.224"
+        ],
+        "code": 200,
+        "server": ""
+    },
+    "raptor.bsu.edu": {
+        "domain": "",
+        "alias": [],
+        "ipaddr": [
+            "10.2.159.0"
+        ],
+        "code": "",
+        "server": ""
+    },
     "tc.bsu.edu": {
         "domain": "storage.tc.bsu.edu",
         "alias": [
@@ -692,6 +773,15 @@
         ],
         "ipaddr": [
             "10.192.24.101"
+        ],
+        "code": "",
+        "server": ""
+    },
+    "rd.bsu.edu": {
+        "domain": "",
+        "alias": [],
+        "ipaddr": [
+            "10.192.28.50"
         ],
         "code": "",
         "server": ""
@@ -707,117 +797,6 @@
         "code": 200,
         "server": "Tableau"
     },
-    "maintenance.bsu.edu": {
-        "domain": "",
-        "alias": [],
-        "ipaddr": [
-            "10.192.224.56"
-        ],
-        "code": "",
-        "server": ""
-    },
-    "tracking.bsu.edu": {
-        "domain": "tracking.socketlabs.com",
-        "alias": [
-            "tracking.bsu.edu"
-        ],
-        "ipaddr": [
-            "142.0.190.16",
-            "142.0.191.16"
-        ],
-        "code": 200,
-        "server": "Microsoft-IIS/10.0"
-    },
-    "mom.bsu.edu": {
-        "domain": "",
-        "alias": [],
-        "ipaddr": [
-            "10.192.32.21"
-        ],
-        "code": "",
-        "server": ""
-    },
-    "mse.bsu.edu": {
-        "domain": "",
-        "alias": [],
-        "ipaddr": [
-            "10.192.58.56"
-        ],
-        "code": "",
-        "server": ""
-    },
-    "nessus.bsu.edu": {
-        "domain": "",
-        "alias": [],
-        "ipaddr": [
-            "10.193.13.71"
-        ],
-        "code": "",
-        "server": ""
-    },
-    "netscaler.bsu.edu": {
-        "domain": "",
-        "alias": [],
-        "ipaddr": [
-            "10.192.24.75"
-        ],
-        "code": "",
-        "server": ""
-    },
-    "vpn.bsu.edu": {
-        "domain": "",
-        "alias": [],
-        "ipaddr": [
-            "147.226.13.20"
-        ],
-        "code": 200,
-        "server": ""
-    },
-    "ns3.bsu.edu": {
-        "domain": "",
-        "alias": [],
-        "ipaddr": [
-            "147.226.3.130"
-        ],
-        "code": "",
-        "server": ""
-    },
-    "ns6.bsu.edu": {
-        "domain": "",
-        "alias": [],
-        "ipaddr": [
-            "52.200.80.45"
-        ],
-        "code": "",
-        "server": ""
-    },
-    "webapps.bsu.edu": {
-        "domain": "",
-        "alias": [],
-        "ipaddr": [
-            "10.193.131.200"
-        ],
-        "code": 403,
-        "server": "Microsoft-IIS/8.5"
-    },
-    "webstat.bsu.edu": {
-        "domain": "",
-        "alias": [],
-        "ipaddr": [
-            "10.96.32.253"
-        ],
-        "code": 200,
-        "server": "Niagara Web Server/1.1"
-    },
-    "time.bsu.edu": {
-        "domain": "",
-        "alias": [],
-        "ipaddr": [
-            "10.192.26.9"
-        ],
-        "code": 200,
-        "server": "Apache"
-    },
     "speedtest.bsu.edu": {
         "domain": "netspeed01.bsu.edu",
         "alias": [
@@ -829,43 +808,35 @@
         "code": 200,
         "server": "Microsoft-IIS/8.5"
     },
-    "www.bsu.edu": {
-        "domain": "scprodcd.northcentralus.cloudapp.azure.com",
+    "tracking.bsu.edu": {
+        "domain": "tracking.socketlabs.com",
         "alias": [
-            "www.bsu.edu"
+            "tracking.bsu.edu"
         ],
         "ipaddr": [
-            "52.162.81.104"
+            "142.0.191.16",
+            "142.0.190.16"
         ],
         "code": 200,
         "server": "Microsoft-IIS/10.0"
     },
-    "pandora.bsu.edu": {
+    "time.bsu.edu": {
         "domain": "",
         "alias": [],
         "ipaddr": [
-            "10.4.78.80"
+            "10.192.26.9"
         ],
-        "code": "",
-        "server": ""
+        "code": 200,
+        "server": "Apache"
     },
-    "raptor.bsu.edu": {
+    "techweb.bsu.edu": {
         "domain": "",
         "alias": [],
         "ipaddr": [
-            "10.2.159.0"
+            "10.195.131.228"
         ],
-        "code": "",
-        "server": ""
-    },
-    "rd.bsu.edu": {
-        "domain": "",
-        "alias": [],
-        "ipaddr": [
-            "10.192.28.50"
-        ],
-        "code": "",
-        "server": ""
+        "code": 200,
+        "server": "Microsoft-IIS/8.5"
     },
     "shibboleth.bsu.edu": {
         "domain": "",
@@ -905,6 +876,64 @@
         "code": "",
         "server": ""
     },
+    "sponsor.bsu.edu": {
+        "domain": "",
+        "alias": [],
+        "ipaddr": [
+            "10.64.6.31"
+        ],
+        "code": "",
+        "server": ""
+    },
+    "vpn.bsu.edu": {
+        "domain": "",
+        "alias": [],
+        "ipaddr": [
+            "147.226.13.20"
+        ],
+        "code": 200,
+        "server": ""
+    },
+    "webapps.bsu.edu": {
+        "domain": "",
+        "alias": [],
+        "ipaddr": [
+            "10.193.131.200"
+        ],
+        "code": 403,
+        "server": "Microsoft-IIS/8.5"
+    },
+    "webstat.bsu.edu": {
+        "domain": "",
+        "alias": [],
+        "ipaddr": [
+            "10.96.32.253"
+        ],
+        "code": 200,
+        "server": "Niagara Web Server/1.1"
+    },
+    "www.bsu.edu": {
+        "domain": "scprodcd.northcentralus.cloudapp.azure.com",
+        "alias": [
+            "www.bsu.edu"
+        ],
+        "ipaddr": [
+            "52.162.81.104"
+        ],
+        "code": 200,
+        "server": "Microsoft-IIS/10.0"
+    },
+    "ldap.bsu.edu": {
+        "domain": "",
+        "alias": [],
+        "ipaddr": [
+            "10.193.134.73",
+            "10.193.134.99",
+            "10.193.134.72"
+        ],
+        "code": "",
+        "server": ""
+    },
     "testweb.bsu.edu": {
         "domain": "",
         "alias": [],
@@ -914,22 +943,22 @@
         "code": "",
         "server": ""
     },
-    "titanium.bsu.edu": {
-        "domain": "titanium.servers.bsu.edu",
-        "alias": [
-            "titanium.bsu.edu"
-        ],
-        "ipaddr": [
-            "10.197.102.4"
-        ],
-        "code": "",
-        "server": ""
-    },
     "toolkit.bsu.edu": {
         "domain": "",
         "alias": [],
         "ipaddr": [
             "10.192.30.17"
+        ],
+        "code": "",
+        "server": ""
+    },
+    "titanium.bsu.edu": {
+        "domain": "TITANIUM.servers.bsu.edu",
+        "alias": [
+            "titanium.bsu.edu"
+        ],
+        "ipaddr": [
+            "10.197.102.4"
         ],
         "code": "",
         "server": ""
@@ -990,23 +1019,12 @@
         "code": "",
         "server": ""
     },
-    "ldap.bsu.edu": {
-        "domain": "",
-        "alias": [],
-        "ipaddr": [
-            "10.193.134.72",
-            "10.193.134.73",
-            "10.193.134.99"
-        ],
-        "code": "",
-        "server": ""
-    },
     "_meta": {
         "name": "knockpy",
         "version": "5.2.0",
-        "time_start": 1639347659.5319648,
-        "time_end": 1639347684.732082,
+        "time_start": 1639697413.1792965,
+        "time_end": 1639697451.3976698,
         "domain": "bsu.edu",
-        "wordlist": 10757
+        "wordlist": 10759
     }
 }

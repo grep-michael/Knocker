@@ -1,19 +1,13 @@
 extends Main
 
 
-block content 
-    table(border="1")
-        tr
-            th Domain
-            th Alias
-            th IPs
-            th Code
-            th Server
-        each val in domains
-            tr
-                td= val.domain
-                td= val.alias
-                td= val.ipaddr
-                td= val.code
-                td= val.server
-            
+block content
+    div(class="content container-fluid")
+    each val in domains
+        div(class="row border",style="word-break:break-all;")
+            div(class="border domain col-sm")= val.domain
+            div(class="border alias col-sm")= val.alias
+            div(class="border ips col-sm")= val.ipaddr
+            div(class="border code col-sm")= val.code
+            div(class="border server col-sm")= val.server
+        br

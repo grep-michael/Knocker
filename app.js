@@ -27,11 +27,15 @@ app.get('/',function(req,res){
 
 app.get('/runKnocker',function(req,res){
     res.setTimeout(0)
-    console.log(req.query.domain) 
-    execute(`/opt/PenTools/knock/knockpy.py ${req.query.domain} -o ./reports/report.json`).then(
-        (out)=>{res.redirect("/results")},
-        ()=>{console.log("Error")}
-    )
+    re = /[0-9a-zA-Z.]{4,62}/
+    if(re.test(req.query.domain)){
+        execute(`/opt/PenTools/knock/knockpy.py ${req.query.domain} -o ./reports/report.json`).then(
+            (out)=>{res.redirect("/results")},
+            ()=>{console.log("Error")}
+        )
+    } else{
+        res.send("fool")
+    }
 })
 
 app.get('/results',function(req,res){
@@ -44,4 +48,4 @@ app.get('/results',function(req,res){
     })
 })
 
-var server = app.listen(3001)
+var server = app.listen(3000)
